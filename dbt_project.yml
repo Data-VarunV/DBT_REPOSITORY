@@ -39,4 +39,6 @@ models:
   DBT_PROJECT:
     # Applies to all files under models/stage/
     stage:
-      +materialized: table
+      +materialized: view
+    ods:
+      +materialised: table
