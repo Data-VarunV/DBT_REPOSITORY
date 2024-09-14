@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+    - name: customers
+      description: "Contains Customers Details"
+      columns:
+          - name: customer_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+

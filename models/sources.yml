@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: customers_sc
+    database: raw_data
+    schema: customers_sc
+    tables:
+      - name: customers
+      
