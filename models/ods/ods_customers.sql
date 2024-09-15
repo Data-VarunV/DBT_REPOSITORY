@@ -1,7 +1,11 @@
 
 
 SELECT
+<<<<<<< HEAD
 'DEV' AS dbt_dev_branch,
+=======
+'PROD' AS DBT_PROD_BRANCH,
+>>>>>>> 97053aaca9e10c1d5b8d94c70602b02fa7f67a73
 S_NO,
 CUSTOMER_ID,
 CONCAT(FIRST_NAME,' ',LAST_NAME) AS FULL_NAME,
