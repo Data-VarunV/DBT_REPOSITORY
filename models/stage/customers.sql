@@ -8,5 +8,5 @@ from {{ source("customers_sc","customers") }}
 
 where updated_at > (select max(updated_at) from {{this}})
 
-{% end if %}
+{% endif %}
 
