@@ -1,6 +1,7 @@
 
 
 SELECT
+'QA' AS dbt_qa_branch,
 S_NO,
 CUSTOMER_ID,
 CONCAT(FIRST_NAME,' ',LAST_NAME) AS FULL_NAME,
