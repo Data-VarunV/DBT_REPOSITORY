@@ -42,11 +42,8 @@ name: dbt_project
 models:
   # Be sure to namespace your model configs to your project name
   dbt_project:
-    ods:
-      +materialized: table
+    +materialized: table
 
-    stage:
-      +materialized: table
 
       
       
