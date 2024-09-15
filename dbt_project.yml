@@ -45,5 +45,8 @@ models:
     ods:
       +materialized: table
 
+    stage:
+      +materialized: table
+
       
       
